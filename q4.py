@@ -10,6 +10,16 @@ turtle.hideturtle()
 #    1. uses `turtle.goto` to go to that x and y coordinate
 #    2. stamps a point with `turtle.dot`
 
+class Point :
+    def __init__(self.x, self.y):
+        finally
+    def __str__(x,y):
+        finally
+     def __str__(x,y):
+
+
+    
+      
 
 # Make 4 new objects of the class Point: (0, 0), (100, 0), (100, 100), (0, 100)
 # Print your objects.
