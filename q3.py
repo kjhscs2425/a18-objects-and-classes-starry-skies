@@ -22,11 +22,8 @@ class Dog:
     def __init__(self, name):
         self.name = name
     def __str__(self):
-      return f"{self.name} is a dog"
-
-# Make a new object of class `Dog` and print it out
-#### YOUR CODE HERE ####
-bartholomew = Dog("Bartholomew")
-print(bartholomew)
-
-
+        return f"I'm a cat named {self.name}"
+    def speak(self):
+        print(f"{self.name} says bark!")
+damien = Cat("Damien")
+print(damien)
