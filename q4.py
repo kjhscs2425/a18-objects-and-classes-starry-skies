@@ -38,15 +38,18 @@ fourth = Point(0,100)
 print(fourth)
 turtle.pendown()
 firstcord.draw()
+turtle.write(str(firstcord))
 secord.draw()
+turtle.write(str(secord))
 third.draw()
+turtle.write(str(third))
 fourth.draw()
+turtle.write(str(fourth))
         
 #### OPTIONAL extra credit ####
 # The `str` function will run the `__str__` method for an object. Use the
 # `turtle.write` method and the `str` function to add a label to your point
 # when you draw it.
-
 
 turtle.exitonclick()
 
